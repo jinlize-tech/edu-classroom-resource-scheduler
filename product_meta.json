@@ -1,0 +1,24 @@
+{
+  "number": 47,
+  "product_id": "JLZ-EDU-SK-037",
+  "chinese_name": "教室与资源调度",
+  "english_name": "Classroom Resource Scheduler",
+  "repository_name": "edu-classroom-resource-scheduler",
+  "product_type": "Skill",
+  "category": "04 教务运营中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-classroom-resource-scheduler-v1.0.0.zip",
+  "calculator": false,
+  "core_input": "教室、设备、班级、时段、容量、优先级和占用状态",
+  "main_output": "资源占用表、调度建议、冲突清单、替代资源和调整步骤",
+  "package_entries": [
+    "edu-classroom-resource-scheduler/SKILL.md",
+    "edu-classroom-resource-scheduler/references/DOMAIN_GUIDE.md",
+    "edu-classroom-resource-scheduler/references/EXAMPLES.md",
+    "edu-classroom-resource-scheduler/templates/OUTPUT_TEMPLATE.md"
+  ]
+}
