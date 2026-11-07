@@ -6,19 +6,37 @@
   "repository_name": "edu-classroom-resource-scheduler",
   "product_type": "Skill",
   "category": "04 教务运营中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-classroom-resource-scheduler-v1.0.0.zip",
+  "baseline_commit": "38a12488e06c9c4517f5794d757e83e57ea5addf",
+  "package_path": "dist/edu-classroom-resource-scheduler-v1.0.1.zip",
+  "previous_package_path": "dist/edu-classroom-resource-scheduler-v1.0.0.zip",
+  "previous_package_sha256": "0CFE619AD8DB0C46A6E30D9600C61821C45CD2401A4456BC0D93F7211C9445A3",
   "calculator": false,
   "core_input": "教室、设备、班级、时段、容量、优先级和占用状态",
   "main_output": "资源占用表、调度建议、冲突清单、替代资源和调整步骤",
+  "main_output_fields": [
+    "资源占用表",
+    "调度建议",
+    "冲突清单",
+    "替代资源和调整步骤"
+  ],
   "package_entries": [
     "edu-classroom-resource-scheduler/SKILL.md",
     "edu-classroom-resource-scheduler/references/DOMAIN_GUIDE.md",
     "edu-classroom-resource-scheduler/references/EXAMPLES.md",
-    "edu-classroom-resource-scheduler/templates/OUTPUT_TEMPLATE.md"
+    "edu-classroom-resource-scheduler/templates/OUTPUT_TEMPLATE.md",
+    "edu-classroom-resource-scheduler/README.md",
+    "edu-classroom-resource-scheduler/USAGE.md",
+    "edu-classroom-resource-scheduler/LICENSE",
+    "edu-classroom-resource-scheduler/THIRD_PARTY_NOTICES.md",
+    "edu-classroom-resource-scheduler/scripts/validate_input.js"
   ]
 }
